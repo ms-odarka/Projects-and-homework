@@ -1,0 +1,431 @@
+/* Позиционирование */
+.headercontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#promo {
+    display: flex;
+    flex-direction: column;
+}
+
+.promoimagescontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.milkshakescontainer {
+    display: flex;
+}
+
+.yellowbackgroundcontainer {
+    display: flex;
+}
+
+.magigslabcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addresscontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Блочная модель */
+.headercontainer {
+    height: 112px;
+}
+
+.menu {
+    margin-right: 23px;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 14px 24px 15px 24px;
+    width: 150px;
+    height: 53px;
+}
+
+.logocontainer {
+    padding: 10px;
+    margin-bottom: 207px;
+}
+
+.promoimagescontainer {
+    height: 40vh;
+}
+
+#featuredin {
+    padding: 5px;
+    margin-top: 138px;
+    margin-bottom: 76px;
+}
+
+.icecream14 {
+    margin-right: -55px;
+    margin-left: -55px;
+}
+
+.icecream23 {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+#quality {
+    padding: 109px 117px 27px 65px;
+    margin: 0px;
+}
+
+#aboutusparagraph1 {
+    padding: 0px 48px 113px 65px;
+    margin: 0px;
+}
+
+#aboutusparagraph2 {
+    padding: 0px 48px 133px 65px;
+    margin: 0px;
+}
+
+#aboutusparagraph3 {
+    padding: 0px 48px 150px 65px;
+    margin: 0px;
+}
+
+#supporting {
+    margin: 129px 185px 28px 65px;
+}
+
+#flavors {
+    margin: 146px 65px 28px 65px;
+}
+
+.crazypromo {
+    height: 896px;
+}
+
+#white {
+    padding: 219px 104px 173px 105px;
+    margin: 0px;
+}
+
+#magicmilkshakes {
+    margin: 0px;
+    padding: 57px 0px 26px 320px;
+}
+
+#trytoday {
+    padding: 101px 160px 0px 0px;
+    margin-left: 94px;
+}
+
+#milkshakesparagraph1 {
+    margin: 0px 0px 0px 400px;
+}
+
+#milkshakesparagraph2 {
+    margin: 0px 0px 0px 350px;
+}
+
+#yellowbackgroundparagrah {
+    margin: 0px 104px 111px 10px;
+}
+
+#scoup {
+    margin: 80px 120px 178px 80px;
+    width: 560px;
+    height: 560px;
+}
+
+#event {
+    margin: 84px 203px 0px 0px;
+}
+
+#magicslab {
+    margin: 0px;
+    padding: 112px 227px 25px 227px;
+}
+
+#magicslabparagraph {
+    margin: 0px 320px 79px 320px;
+}
+
+.photo {
+    padding-bottom: 176px;
+}
+
+#comeseeus {
+    margin: 0px 0px 0px 0px;
+    padding: 154px 434px 139px 435px;
+}
+
+#footerend {
+    padding: 103px 593px 128px 593px;
+    margin: 0px;
+}
+
+.city {
+    padding-bottom: 15px;
+    padding-top: 49px;
+    margin: 0px;
+}
+.number {
+    margin: 0px;
+    padding-bottom: 32px;
+}
+.address {
+    margin: 0px;
+}
+
+/* Типографика */
+.menu {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 29px;
+}
+
+#header {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #CC2A41;
+}
+
+#contactus {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ECE9E9;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 135%;
+    color: black;
+}
+
+h3 {
+    color: #CC2A41;
+}
+
+#quality {
+    font-size: 64px;
+    line-height: 120%;
+}
+
+#supporting {
+    font-size: 54px;
+    line-height: 142%;
+    text-align: left;
+}
+
+#flavors {
+    font-size: 53px;
+    line-height: 145%;
+    text-align: left;
+}
+
+#everyday {
+    font-size: 196px;
+    line-height: 202px;
+    color: #CC2A41;
+}
+
+#white {
+    font-size: 112px;
+    color: #ECE9E9;
+    line-height: 150%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#new {
+    color: #CC2A41;
+    font-size: 72px;
+    line-height: 120%;
+}
+
+#trytoday {
+    color: #CC2A41;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+#event {
+    color: #CC2A41;
+    font-size: 112px;
+    line-height: 80%;
+    text-align: left;
+}
+
+#featuredin {
+    color: #CC2A41;
+    font-size: 31px;
+    line-height: 155%;
+    text-align: center;
+}
+
+#quality {
+    text-align: left;
+}
+
+#aboutusparagraph1,
+#aboutusparagraph2,
+#aboutusparagraph3 {
+    text-align: justify;
+}
+
+#milkshakesparagraph1,
+#milkshakesparagraph2 {
+    text-align: center;
+    line-height: 150%;
+}
+
+#yellowbackgroundparagrah {
+    color: #CC2A41;
+}
+
+#magicslab {
+    color: #ECE9E9;
+    font-size: 112px;
+    line-height: 150%;
+}
+
+#magicslabparagraph {
+    color: #ECE9E9;
+    text-align: center;
+}
+
+#comeseeus {
+    font-size: 96px;
+    line-height: 140%
+}
+
+#footerend {
+    text-align: center;
+    font-size: 21px;
+    line-height: 183%;
+}
+
+.city {
+    color: #CC2A41;
+    font-size: 88px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.number {
+    color: #CC2A41;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.address {
+    color: #000000;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+}
+
+/*Оформление*/
+.button {
+    background-color: #CC2A41;
+    border: none;
+}
+
+header {
+    background-color: #FEC77E;
+    border-bottom-color: #000000;
+    border-radius: 0px;
+    border-bottom-style: solid
+}
+
+#promo {
+    background-color: #FEC77E;
+    border-radius: 0px;
+}
+
+.icecream {
+    background-color: #FEC77E;
+    border: none;
+}
+
+.aboutus {
+    background-color: #ECE9E9;
+    border: 1px solid #CC2A41;
+    border-radius: 0px;
+}
+
+.aboutusimg {
+    border-left-color: #CC2A41;
+    border-left-style: solid;
+}
+
+.crazypromo {
+    background-color: #CC2A41;
+    border-radius: 0px;
+
+}
+
+#milkshakes {
+    background-image: url(pictures/milkshakes.jpg);
+    height: 800px;
+    width: 100vw;
+}
+
+.yellowbackground {
+    background-color: #FEC77E;
+    background-image: url(pictures/squares.png);
+}
+
+.magicslabsection {
+    background-color: #CC2A41;
+}
+
+/* Разное */
+.button:hover {
+    width: 160px;
+    height: 63px;
+}
+
+/* Анимация */
+/* Разное */
